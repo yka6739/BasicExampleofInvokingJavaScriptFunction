@@ -1,0 +1,22 @@
+﻿@page "/"
+@inject IJSRuntime js
+@if (d.Count > 0)
+{
+<input  type ="checkbox" @bind="check"/>
+}
+else
+            {
+                <p>All Details Deleted Sucessfully.....</p>
+            }
+@foreach(var i in d)
+            {
+                <p>Id is:<b>@i.Id</b></p>
+                <p>Name is:<b>@i.Name</b></p>
+                <p>Address is:<b>@i.Address</b></p>
+
+                @if(check)
+                {
+                    <button @onclick="(()=>DeleteAsync(i))">Delete</button>
+                }
+            }
+

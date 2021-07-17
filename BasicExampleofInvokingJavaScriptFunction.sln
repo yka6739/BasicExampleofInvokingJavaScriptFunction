@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicExampleofInvokingJavaScriptFunction.Server", "BasicExampleofInvokingJavaScriptFunction\Server\BasicExampleofInvokingJavaScriptFunction.Server.csproj", "{274EDEC6-53B7-4696-9741-09E9557E2D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicExampleofInvokingJavaScriptFunction.Client", "BasicExampleofInvokingJavaScriptFunction\Client\BasicExampleofInvokingJavaScriptFunction.Client.csproj", "{A09929BD-757D-47A7-A989-5D9C7E7DC39D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicExampleofInvokingJavaScriptFunction.Shared", "BasicExampleofInvokingJavaScriptFunction\Shared\BasicExampleofInvokingJavaScriptFunction.Shared.csproj", "{49176671-3F57-4228-A036-ECED571A748A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{274EDEC6-53B7-4696-9741-09E9557E2D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274EDEC6-53B7-4696-9741-09E9557E2D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274EDEC6-53B7-4696-9741-09E9557E2D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274EDEC6-53B7-4696-9741-09E9557E2D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09929BD-757D-47A7-A989-5D9C7E7DC39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09929BD-757D-47A7-A989-5D9C7E7DC39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09929BD-757D-47A7-A989-5D9C7E7DC39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09929BD-757D-47A7-A989-5D9C7E7DC39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49176671-3F57-4228-A036-ECED571A748A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49176671-3F57-4228-A036-ECED571A748A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49176671-3F57-4228-A036-ECED571A748A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49176671-3F57-4228-A036-ECED571A748A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D1126A9-653F-44F8-8750-4C2B78BAE25C}
+	EndGlobalSection
+EndGlobal
